@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+
+  background: #0f172a;
+
+  color: white;
+
+  font-family: Arial, sans-serif;
+
+  min-height: 100vh;
+
+  padding: 30px;
+}
+
+
+/* -----------------------------
+   Headings
+----------------------------- */
+
+h1 {
+
+  font-size: 40px;
+
+  margin-bottom: 20px;
+
+  color: #f8fafc;
+}
+
+
+h2 {
+
+  margin-bottom: 15px;
+
+  color: #e2e8f0;
+}
+
+
+h3 {
+
+  margin-top: 15px;
+
+  color: #38bdf8;
+}
+
+
+p {
+
+  color: #cbd5e1;
+}
+
+
+/* -----------------------------
+   Links
+----------------------------- */
+
+a {
+
+  text-decoration: none;
+}
