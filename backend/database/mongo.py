@@ -23,7 +23,12 @@ MONGO_URL = os.getenv(
 
 
 client = MongoClient(
-    MONGO_URL
+
+    MONGO_URL,
+
+    tls=True,
+
+    tlsAllowInvalidCertificates=True
 )
 
 
