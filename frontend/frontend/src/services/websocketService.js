@@ -5,7 +5,7 @@ export const connectSocket = (
 
   const socket = new WebSocket(
 
-    `ws://127.0.0.1:8000/ws/${sessionId}`
+    `wss://quizpulse-gjxe.onrender.com/ws/${sessionId}`
   );
 
 
